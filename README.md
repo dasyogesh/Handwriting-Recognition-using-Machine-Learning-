@@ -1,6 +1,10 @@
 # handwriting-recognition
 Implementation of handwriting recognition using machine learning.
 
+ABSTRACT:
+Handwriting recognition is a process of transforming handwritten text into machine understandable and executable format. The objective of handwritten character recognition system is to implement user friendly computer assisted character representation that will allow successful extraction of characters from handwritten documents and to digitalize and translate the handwritten text into machine readable text. Handwriting recognition like other intelligent systems provides some application in hand phones, robots and other devices for identification and verification purposes. Active area research in handwriting includes online recognition, offline recognition, signature verification, postal- active interpretation and bank-check processing. Challenging problems in online hand writing recognition are different character sizes, different writing styles and duplicate pixels produced by hesitation in writing or interpolated non-adjacent pixels caused by fast writing. Challenging problems in online hand writing recognition are different character sizes, different writing styles and duplicate pixels produced by hesitation in writing or interpolated non-adjacent pixels caused by fast writing.
+
+
 ## Requirements
 - [Python 3.6](https://www.python.org/downloads/)
 - [TensorFlow 1.6](https://www.tensorflow.org/install/)
@@ -42,7 +46,8 @@ python3 draw_gui.py
 - ~~Improve prediction accuracy (should improve after switching to byclass)~~
 - ~~Compare byclass with other EMNIST datasets~~
 - ~~Improve image preprocessing~~
+- ~~Image process strings of letters~~
 - Train using other learning algorithms (if time permits)
     - SVM
     - Random forest
-- Image process strings of letters (if time permits)
+
