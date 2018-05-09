@@ -1,0 +1,10 @@
+*.data
+*.ini
+*.mat
+*.png
+*.zip
+
+etc/
+input/
+model/
+trainer/__pycache__/
